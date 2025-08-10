@@ -1,3 +1,4 @@
+<?php
 session_start(); // INDISPENSABLE !!
 
 $nb_min = 0;
@@ -97,3 +98,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['nombre'])) {
     ]);
     exit;
 }
+?>
